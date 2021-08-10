@@ -1,0 +1,239 @@
+
+
+body {
+    padding-top:60px;
+    margin: auto;
+}
+
+
+/* choose a light or dark theme to add to the body tag. */
+.dark-theme {
+    background-color: #181414;
+    color: #fcfbfb;   
+}
+.light-theme {
+    background-color: white;
+    color: black;    
+}
+
+.container {
+        max-width: 975px;
+}
+
+/* ******** */
+
+.image {
+    width: 100%;
+}
+
+
+
+/*
+super-font
+.headline
+.kicker
+.subhead
+.label
+.label-text
+.credit
+
+sub-font
+.date
+.body-text
+.note
+*/
+
+
+.super-font {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.sub-font {
+    font-family: 'Lora', serif;
+}
+
+
+
+.headline {
+    font-size: 3.5rem;
+    line-height: 0.9;
+    margin-bottom: 0.25rem;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.body-text {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-top: 1.5rem;
+
+}
+
+.kicker {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.credit  {
+    font-size: 1.2rem;
+    line-height: 0.75;
+    margin-top: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.date {
+    font-size: 1rem;
+    line-height: 1;
+    margin-top: 0.25;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.subhead {
+    font-size: 2rem;
+    line-height: 0.9;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    font-weight: 700;
+}
+
+.label {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.label-text {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+.note {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+}
+.caption  {
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+
+#scrolly {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+#scrolly > * {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+article {
+  position: relative;
+  padding: 0 1rem;
+  max-width: 20rem;
+}
+
+.sticky-thing-1 {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  margin: 0;
+  z-index: 0;
+  top: 12.5vh;
+  height: 75vh; 
+  /* Center everything inside */
+  display: flex;
+  align-items: top;
+  justify-content: right;
+  background-image: url('Illustrator/m_left2006.png');
+  background-size: cover;
+  background-position: center center;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+
+
+
+.sticky-thing-2 {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  margin: 0;
+  z-index: 0;
+  top: 12.5vh;
+  height: 75vh;
+  /* Center everything inside */
+  display: flex;
+  align-items: top;
+  justify-content: right;
+  background-image: url('Illustrator/f_left2006.png');
+  background-size: cover;
+  background-position: center center;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+
+.sticky-thing-1 p {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #323232;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.sticky-thing-2 p {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #323232;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.step {
+  margin: 20rem auto 2rem auto;
+  background-color: #3b3b3b;
+  color: #fff;
+  height: 34vh;  /*l think in vh with scrollytelling*/
+  margin-bottom: 50vh;  /*defines pacing between steps: 50% of windows height */
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step.is-active {
+  background-color: #f3d9c3;
+  color: #3b3b3b;
+}
+
+.step p {
+  text-align: left;
+  line-height: 100%;
+  padding: 1rem;
+  font-size: 1.15rem;  /*font fize of text in step*/
+  font-family: Arial, Helvetica, sans-serif
+}
+
+
+

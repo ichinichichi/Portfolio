@@ -1,0 +1,127 @@
+* {
+    font-family: monospace;
+    }
+
+
+    .hide{
+        display: none;
+    }
+
+    select, button{
+        font-size: 5.5 rem;
+    }
+
+    #intro{
+        width: 60%; height: 100px; 
+        position: absolute; left: 50%; top: 450%;
+      
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%); 
+   
+        font: bold 1rem/15px 'helvetica', sans-serif;
+    }
+
+
+    .first{background: url(../img/image2.jpg) no-repeat top center; background-size: cover;
+        text-align: center;
+    }
+    .first .select{
+       width: 100%; height: 150px; 
+       position: absolute; left: 50%; top: 25%;
+      
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%); } 
+    .first .select p{
+        font: bold 2.5rem/21px 'helvetica', sans-serif;
+    }
+
+    #start{
+        width: 150px
+    }
+    
+
+     /* Second Page CSS */
+
+
+    .second{background: url(../img/image3.jpg) no-repeat top center; background-size: cover;
+        text-align: center;}
+    
+    .second .text{
+        width: 100%; height: 100px; 
+        position: absolute; left: 50%; top: 10%;
+      
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%); 
+        line-height: 60%;
+        font: bold 1.5rem/15px 'helvetica', sans-serif;
+    }
+
+    .second table{
+        table-layout: auto;
+        width: 80%; height: 30px; 
+        position: absolute; top: 10%;left: 1%;bottom:10%;
+        font-size: 14px;
+        white-space: nowrap;
+        border-spacing:0.5em; 
+        text-align: left;
+
+      } 
+
+
+
+      /*3rd page CSS */
+
+    .third{background: url(../img/image1.jpg) no-repeat top center; background-size: cover;
+       }
+
+    .third .text3{
+        width: 100%; height: 100px; 
+        position: absolute; left: 1%; top: 20%;
+        text-align: center;
+        font: bold 1.5rem/15px 'helvetica', sans-serif;
+        }
+   
+    .third table {
+        table-layout: auto;
+        position: absolute; left: 1%; top: 30%;
+        width: 90%;
+      } 
+
+    tr { line-height: 18px; 
+    }
+
+    #my_dataviz table{
+        border-collapse: separate;
+        border-spacing: 0 1em;
+    }
+    
+    td.week-bar{
+        width: 60%;
+        text-align: left;
+    }
+/*The way you are coding it makes this a bit trickier. You are adding div instead of rect. It's usually better to work with svg 
+elements because it gives you more control. Anyway, if you want to keep the div for your bars, there are a couple ways you can solve this. 
+You can use line-height; 2.6; to move your label inside the div/bar. Another option is to 
+include your label inside a span tag. Then your div will be your bar and your span your label. That way you can center them using flexbox.*/
+    td.week-bar div{
+        height: 40px;
+        background:  #2a2a2a;
+        color:  white;
+        text-align: right;
+        font: bold 20px;
+        padding-right: 5px;
+        vertical-align: middle;
+        line-height:2.6;
+    }
+
+    td.song-name{
+        text-align: right;
+        font-size: 17px;
+        padding-right: 10px;
+    }

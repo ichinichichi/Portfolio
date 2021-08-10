@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="CSS/fullpage.css">
+</head>
+<body>
+  <div id="fullpage">
+    <!-- First Page Start -->
+    <div class="section first fp-auto-height-responsive">
+       <div class="select"> 
+        <p>
+          Please select your birthday!
+        </p>
+        <!--This here will create the date field -->
+       
+        <input type="date" id="start" name="trip-start"
+          min="1958-08-04" max="2021-07-15">
+        <button type="button" id="moveTo" >Enter!</button>
+        <p id="intro" style="line-height:18px">
+          Enter your birthday and see which songs were Nr. 1 on the Billboard charts for each time you celebrated.<br>
+          Scroll further to see a ranking of the Top 10 personal birthday hits that ranked the longest on the charts.
+          <br>Data available from August 4th, 1958 until July 12th, 2021.
+        </p>
+      
+      </div>
+     
+
+    </div>
+    <!-- First Page End -->
+
+    <!-- Second Page Start -->
+    <div class="section second fp-auto-height-responsive">
+      <div class="result">
+        <div class="text hide">
+          These songs charted Nr.1 in the US Billboard Charts on your birthday:
+        </div>
+        <div class="text2 hide">
+          <table id=tablesongs>
+       
+             
+           
+          </table>
+        </div>
+      </div>
+    </div><!-- Second Page End -->
+
+    <!-- Third Page Start -->
+    <div class="section third fp-auto-height-responsive">
+      <p style="line-height:25px" class="text3 hide">
+        From all the Number 1 songs on your birthday, these charted the longest (in Weeks):
+
+
+      </p>
+      <div id="my_dataviz">
+
+      </div>
+    </div><!-- Third Page Ends -->
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://d3js.org/d3.v6.js"></script>
+
+   <!-- jQuery JS -->
+   <script src='JS/jquery-1.9.1.min.js'></script>
+  <script src="JS/app.js"></script>
+  <!-- Full page JS -->
+  <script src='JS/fullpage.js'></script>
+  <script>
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        //options here
+        // anchors for the moving pages from page 1 to page 2
+        anchors: ['page1','page2'],
+        licenseKey: null,
+        autoScrolling: true,
+        scrollHorizontally: true
+    });
+  });
+
+  // write a javascript function inside html to move pages on click
+
+  $(document).on('click','#moveTo', function(){
+  fullpage_api.moveTo('page2',1);
+});
+
+
+
+  </script>
+</body>
+</html>

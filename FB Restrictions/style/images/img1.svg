@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="563px" height="360px" viewBox="0 -11 563 360" enable-background="new 0 -11 563 360" xml:space="preserve">
+<g transform="translate(58,27)">
+	<g>
+		<g transform="translate(0,0)">
+			<g>
+				<g id="Grid" opacity="0.6">
+					<g transform="translate(0.5,0.5)">
+						<path pointer-events="none" fill="none" d="M0,0L0,0L0,0L0,0z"/>
+						<g>
+							<g pointer-events="none">
+								<line fill="none" stroke="#DDDDDD" stroke-miterlimit="10" x1="0" y1="300" x2="500" y2="300"/>
+								<line fill="none" stroke="#DDDDDD" stroke-miterlimit="10" x1="0" y1="263" x2="500" y2="263"/>
+								<line fill="none" stroke="#DDDDDD" stroke-miterlimit="10" x1="0" y1="225" x2="500" y2="225"/>
+								<line fill="none" stroke="#DDDDDD" stroke-miterlimit="10" x1="0" y1="188" x2="500" y2="188"/>
+								<line fill="none" stroke="#DDDDDD" stroke-miterlimit="10" x1="0" y1="150" x2="500" y2="150"/>
+								<line fill="none" stroke="#DDDDDD" stroke-miterlimit="10" x1="0" y1="113" x2="500" y2="113"/>
+								<line fill="none" stroke="#DDDDDD" stroke-miterlimit="10" x1="0" y1="75" x2="500" y2="75"/>
+								<line fill="none" stroke="#DDDDDD" stroke-miterlimit="10" x1="0" y1="38" x2="500" y2="38"/>
+								<line fill="none" stroke="#DDDDDD" stroke-miterlimit="10" x1="0" y1="0" x2="500" y2="0"/>
+							</g>
+						</g>
+						<path pointer-events="none" display="none" fill="none" stroke="#DDDDDD" stroke-miterlimit="10" d="M0,0"/>
+					</g>
+				</g>
+				<g>
+					<g transform="translate(0.5,300.5)">
+						<g>
+							<g pointer-events="none">
+								<text transform="matrix(1 0 0 1 19.627 15)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">2013</text>
+								<text transform="matrix(1 0 0 1 82.127 15)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">2014</text>
+								<text transform="matrix(1 0 0 1 144.627 15)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">2015</text>
+								<text transform="matrix(1 0 0 1 207.127 15)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">2016</text>
+								<text transform="matrix(1 0 0 1 269.627 15)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">2017</text>
+								<text transform="matrix(1 0 0 1 332.127 15)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">2018</text>
+								<text transform="matrix(1 0 0 1 394.627 15)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">2019</text>
+								<text transform="matrix(1 0 0 1 457.127 15)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">2020</text>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g>
+					<g transform="translate(0.5,0.5)">
+						<path pointer-events="none" fill="none" d="M0,0L0,0L0,0L0,0z"/>
+						<g>
+							<g id="y_numbers" pointer-events="none">
+								<text transform="matrix(1 0 0 1 -10.5615 303)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">0</text>
+								<text transform="matrix(1 0 0 1 -35.5859 265.5)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">10,000</text>
+								<text transform="matrix(1 0 0 1 -35.5859 228)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">20,000</text>
+								<text transform="matrix(1 0 0 1 -35.5859 190.5)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">30,000</text>
+								<text transform="matrix(1 0 0 1 -35.5859 153)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">40,000</text>
+								<text transform="matrix(1 0 0 1 -35.5859 115.5)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">50,000</text>
+								<text transform="matrix(1 0 0 1 -35.5859 78)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">60,000</text>
+								<text transform="matrix(1 0 0 1 -35.5859 40.5)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">70,000</text>
+								<text transform="matrix(1 0 0 1 -35.5859 3)" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="10">80,000</text>
+							</g>
+							<g id="y_title" pointer-events="none">
+								<text transform="matrix(6.123234e-017 -1 1 6.123234e-017 -43.5859 205.916)" enable-background="new    "><tspan x="0" y="0" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="11">     </tspan><tspan x="11.66" y="0" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="12">         Restrictions</tspan></text>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g>
+					<path fill="#BBB4B2" d="M6.25,272.358h50V300h-50V272.358z"/>
+					<path fill="#BBB4B2" d="M68.75,230.696h50V300h-50V230.696z"/>
+					<path fill="#9A1C53" d="M131.25,13.519h50V300h-50V13.519z"/>
+					<path fill="#BBB4B2" d="M193.75,237.713h50V300h-50V237.713z"/>
+					<path fill="#BBB4B2" d="M256.25,141.263h50V300h-50V141.263z"/>
+					<path fill="#BBB4B2" d="M318.75,107.591h50V300h-50V107.591z"/>
+					<path fill="#BBB4B2" d="M381.25,173.877h50V300h-50V173.877z"/>
+					<path fill="#BBB4B2" d="M443.75,57.277h50V300h-50V57.277z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 154.4165 -0.4814)"><tspan x="0" y="0" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="12">2015 has the biggest spike </tspan><tspan x="0" y="14.4" fill="#BBB4B2" font-family="'RobotoCondensed-Regular'" font-size="12">with 310.855 restrictions</tspan><tspan x="122.326" y="14.4" font-family="'RobotoCondensed-Regular'" font-size="12"> </tspan></text>
+</svg>

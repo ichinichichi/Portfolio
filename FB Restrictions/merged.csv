@@ -1,0 +1,787 @@
+Country,Restrictions,Year,Halfyear
+Australia,48,2013,H2
+Austria,78,2013,H2
+Bangladesh,3,2013,H2
+France,80,2013,H2
+Germany,84,2013,H2
+India,4765,2013,H2
+Israel,113,2013,H2
+Italy,5,2013,H2
+Pakistan,162,2013,H2
+Russia,4,2013,H2
+Turkey,2014,2013,H2
+United Arab Emirates,12,2013,H2
+United Kingdom,3,2013,H2
+Australia,7,2014,H1
+Austria,15,2014,H1
+France,22,2014,H1
+Germany,34,2014,H1
+India,4960,2014,H1
+Israel,15,2014,H1
+Italy,3,2014,H1
+Kuwait,1,2014,H1
+Pakistan,1773,2014,H1
+Russia,29,2014,H1
+Saudi Arabia,7,2014,H1
+Thailand,5,2014,H1
+Turkey,1893,2014,H1
+United Arab Emirates,1,2014,H1
+United Kingdom,9,2014,H1
+Argentina,1,2014,H2
+Australia,3,2014,H2
+Belgium,1,2014,H2
+Brazil,3,2014,H2
+France,13,2014,H2
+Germany,60,2014,H2
+India,5832,2014,H2
+Israel,15,2014,H2
+Italy,1,2014,H2
+Kazakhstan,1,2014,H2
+Myanmar,5,2014,H2
+New Zealand,1,2014,H2
+Norway,5,2014,H2
+Pakistan,54,2014,H2
+Russia,55,2014,H2
+Thailand,30,2014,H2
+Turkey,3624,2014,H2
+United Kingdom,3,2014,H2
+Argentina,1,2015,H1
+Australia,1,2015,H1
+Austria,170,2015,H1
+Brazil,7,2015,H1
+China,5,2015,H1
+France,295,2015,H1
+Germany,188,2015,H1
+India,15155,2015,H1
+Israel,195,2015,H1
+Kazakhstan,11,2015,H1
+Romania,2,2015,H1
+Russia,28,2015,H1
+South Korea,6,2015,H1
+Turkey,4496,2015,H1
+United Kingdom,8,2015,H1
+Argentina,1,2015,H2
+Australia,6,2015,H2
+Austria,231,2015,H2
+Bangladesh,4,2015,H2
+Brazil,34,2015,H2
+Estonia,1,2015,H2
+Finland,4,2015,H2
+France,37695,2015,H2
+Germany,366,2015,H2
+Hong Kong,1,2015,H2
+India,14971,2015,H2
+Israel,236,2015,H2
+Italy,8,2015,H2
+Kazakhstan,25,2015,H2
+Myanmar,1,2015,H2
+Pakistan,6,2015,H2
+Russia,56,2015,H2
+South Korea,1,2015,H2
+Spain,5,2015,H2
+Turkey,2078,2015,H2
+United Kingdom,97,2015,H2
+Argentina,5,2016,H1
+Austria,940,2016,H1
+Bangladesh,2,2016,H1
+Brazil,1019,2016,H1
+France,2213,2016,H1
+Germany,1093,2016,H1
+Ghana,3,2016,H1
+Hong Kong,1,2016,H1
+India,2034,2016,H1
+Israel,962,2016,H1
+Italy,11,2016,H1
+Kazakhstan,7,2016,H1
+Pakistan,25,2016,H1
+Russia,130,2016,H1
+South Korea,56,2016,H1
+Spain,10,2016,H1
+Thailand,10,2016,H1
+Turkey,861,2016,H1
+United Kingdom,284,2016,H1
+Argentina,72,2016,H2
+Australia,2,2016,H2
+Austria,659,2016,H2
+Belgium,2,2016,H2
+Brazil,1708,2016,H2
+France,683,2016,H2
+Germany,919,2016,H2
+Hong Kong,2,2016,H2
+India,719,2016,H2
+Indonesia,1,2016,H2
+Israel,661,2016,H2
+Italy,11,2016,H2
+Mexico,25,2016,H2
+Netherlands,4,2016,H2
+Pakistan,6,2016,H2
+Russia,121,2016,H2
+South Korea,15,2016,H2
+Spain,6,2016,H2
+Thailand,40,2016,H2
+Turkey,1111,2016,H2
+United Kingdom,177,2016,H2
+Australia,2,2017,H1
+Austria,363,2017,H1
+Belgium,23,2017,H1
+Brazil,629,2017,H1
+Canada,2,2017,H1
+France,967,2017,H1
+Germany,1297,2017,H1
+Hong Kong,51,2017,H1
+India,1228,2017,H1
+Ireland,3,2017,H1
+Israel,472,2017,H1
+Italy,321,2017,H1
+Kazakhstan,7,2017,H1
+Latvia,5,2017,H1
+Mexico,20527,2017,H1
+Myanmar,1,2017,H1
+Netherlands,28,2017,H1
+New Zealand,1,2017,H1
+Pakistan,177,2017,H1
+Russia,195,2017,H1
+Slovakia,1,2017,H1
+Slovenia,1,2017,H1
+South Korea,572,2017,H1
+Spain,45,2017,H1
+Thailand,226,2017,H1
+Turkey,712,2017,H1
+United Arab Emirates,12,2017,H1
+United Kingdom,168,2017,H1
+Algeria,9,2017,H2
+Argentina,14,2017,H2
+Australia,32,2017,H2
+Austria,172,2017,H2
+Belarus,1,2017,H2
+Belgium,181,2017,H2
+Brazil,1137,2017,H2
+Bulgaria,3,2017,H2
+Cambodia,1,2017,H2
+Canada,30,2017,H2
+Colombia,8,2017,H2
+Costa Rica,2,2017,H2
+Croatia,2,2017,H2
+Cyprus,5,2017,H2
+Czech Republic,5,2017,H2
+Denmark,3,2017,H2
+Dominican Republic,2,2017,H2
+Ecuador,1,2017,H2
+Egypt,1,2017,H2
+Estonia,2,2017,H2
+Finland,6,2017,H2
+France,354,2017,H2
+Germany,1893,2017,H2
+Greece,2,2017,H2
+Guatemala,1,2017,H2
+Honduras,2,2017,H2
+Hong Kong,192,2017,H2
+Hungary,2,2017,H2
+Ireland,24,2017,H2
+India,1914,2017,H2
+Israel,487,2017,H2
+Italy,535,2017,H2
+Jersey,5,2017,H2
+Kazakhstan,1,2017,H2
+Kenya,13,2017,H2
+Latvia,2,2017,H2
+Lebanon,2,2017,H2
+Lithuania,2,2017,H2
+Luxembourg,2,2017,H2
+Malaysia,4,2017,H2
+Malta,2,2017,H2
+Mexico,2280,2017,H2
+Monaco,2,2017,H2
+Morocco,20,2017,H2
+Myanmar,1,2017,H2
+Netherlands,104,2017,H2
+New Zealand,5,2017,H2
+Norway,1,2017,H2
+Pakistan,301,2017,H2
+Panama,1,2017,H2
+Peru,17,2017,H2
+Philippines,1,2017,H2
+Poland,21,2017,H2
+Portugal,3,2017,H2
+Romania,2,2017,H2
+Russia,175,2017,H2
+Spain,87,2017,H2
+South Africa,1,2017,H2
+South Korea,3,2017,H2
+Slovakia,9,2017,H2
+Slovenia,2,2017,H2
+Sweden,2,2017,H2
+Switzerland,9,2017,H2
+Taiwan,1,2017,H2
+Thailand,139,2017,H2
+Tunisia,1,2017,H2
+Turkey,3832,2017,H2
+Ukraine,33,2017,H2
+United Arab Emirates,7,2017,H2
+United Kingdom,156,2017,H2
+Vietnam,22,2017,H2
+Albania,2,2018,H1
+Argentina,5,2018,H1
+Australia,18,2018,H1
+Austria,120,2018,H1
+Azerbaijan,1,2018,H1
+Barbados,1,2018,H1
+Belgium,68,2018,H1
+Brazil,1855,2018,H1
+Canada,14,2018,H1
+Colombia,21,2018,H1
+Costa Rica,1,2018,H1
+Cyprus,1,2018,H1
+Czech Republic,14,2018,H1
+Denmark,3,2018,H1
+Egypt,1,2018,H1
+Fiji,2,2018,H1
+Finland,1,2018,H1
+France,443,2018,H1
+Gabon,2,2018,H1
+Germany,1764,2018,H1
+Greece,2,2018,H1
+Guatemala,9,2018,H1
+Hong Kong,13,2018,H1
+India,1524,2018,H1
+Indonesia,153,2018,H1
+Ireland,9,2018,H1
+Israel,638,2018,H1
+Italy,582,2018,H1
+Latvia,5,2018,H1
+Lebanon,1,2018,H1
+Malta,3,2018,H1
+Mexico,766,2018,H1
+Morocco,7,2018,H1
+Netherlands,104,2018,H1
+New Zealand,1,2018,H1
+Nicaragua,6,2018,H1
+Norway,1,2018,H1
+Pakistan,2203,2018,H1
+Palestine,1,2018,H1
+Panama,2,2018,H1
+Peru,13,2018,H1
+Philippines,1,2018,H1
+Poland,8,2018,H1
+Portugal,1,2018,H1
+Romania,1,2018,H1
+Russia,1546,2018,H1
+Saudi Arabia,2,2018,H1
+Singapore,1,2018,H1
+Spain,99,2018,H1
+South Africa,3,2018,H1
+South Korea,823,2018,H1
+Slovakia,35,2018,H1
+Slovenia,52,2018,H1
+Sri Lanka,9,2018,H1
+Switzerland,2,2018,H1
+Taiwan,4,2018,H1
+Thailand,285,2018,H1
+Trinidad and Tobago,7,2018,H1
+Tunisia,2,2018,H1
+Turkey,1634,2018,H1
+Ukraine,7,2018,H1
+United Arab Emirates,1,2018,H1
+United Kingdom,165,2018,H1
+Uruguay,3,2018,H1
+Venezuela,1,2018,H1
+Vietnam,265,2018,H1
+Argentina,704,2018,H2
+Australia,204,2018,H2
+Austria,69,2018,H2
+Bangladesh,1,2018,H2
+Belgium,32,2018,H2
+Bhutan,7,2018,H2
+Bolivia,3,2018,H2
+Brazil,4026,2018,H2
+Bulgaria,1,2018,H2
+Canada,11,2018,H2
+Chile,3,2018,H2
+Colombia,221,2018,H2
+Croatia,1,2018,H2
+Cyprus,1,2018,H2
+Czech Republic,1,2018,H2
+Denmark,1,2018,H2
+Dominican Republic,3,2018,H2
+Ecuador,2,2018,H2
+Egypt,2,2018,H2
+Estonia,7,2018,H2
+Fiji,5,2018,H2
+Finland,1,2018,H2
+France,224,2018,H2
+Germany,1148,2018,H2
+Greece,3,2018,H2
+Haiti,1,2018,H2
+Hong Kong,5,2018,H2
+Hungary,1,2018,H2
+India,17713,2018,H2
+Indonesia,227,2018,H2
+Ireland,23,2018,H2
+Israel,260,2018,H2
+Italy,571,2018,H2
+Japan,1,2018,H2
+Kazakhstan,1,2018,H2
+Kenya,1,2018,H2
+Latvia,2,2018,H2
+Lebanon,11,2018,H2
+Lithuania,1,2018,H2
+Luxembourg,1,2018,H2
+Malaysia,26,2018,H2
+Malta,2,2018,H2
+Mexico,1274,2018,H2
+Netherlands,89,2018,H2
+Norway,2,2018,H2
+Pakistan,4174,2018,H2
+Panama,43,2018,H2
+Peru,1,2018,H2
+Philippines,4,2018,H2
+Poland,18,2018,H2
+Portugal,4,2018,H2
+Romania,1,2018,H2
+Russia,1537,2018,H2
+Saudi Arabia,19,2018,H2
+Singapore,6,2018,H2
+Slovakia,42,2018,H2
+Slovenia,15,2018,H2
+South Africa,1,2018,H2
+South Korea,20,2018,H2
+Spain,140,2018,H2
+Sweden,1,2018,H2
+Switzerland,4,2018,H2
+Taiwan,7,2018,H2
+Thailand,584,2018,H2
+Trinidad and Tobago,1,2018,H2
+Turkey,747,2018,H2
+Ukraine,1,2018,H2
+United Arab Emirates,25,2018,H2
+United Kingdom,128,2018,H2
+Vietnam,1556,2018,H2
+Argentina,10,2019,H1
+Australia,5,2019,H1
+Austria,91,2019,H1
+Bangladesh,11,2019,H1
+Belgium,64,2019,H1
+Brazil,1014,2019,H1
+Canada,9,2019,H1
+Czech Republic,3,2019,H1
+Egypt,3,2019,H1
+France,300,2019,H1
+Germany,937,2019,H1
+Greece,11,2019,H1
+Haiti,1,2019,H1
+Hong Kong,8,2019,H1
+Hungary,1,2019,H1
+India,1250,2019,H1
+Indonesia,493,2019,H1
+Iraq,1,2019,H1
+Ireland,29,2019,H1
+Israel,525,2019,H1
+Italy,446,2019,H1
+Japan,4,2019,H1
+Kazakhstan,5,2019,H1
+Kosovo,3,2019,H1
+Laos,1,2019,H1
+Lebanon,33,2019,H1
+Libya,1,2019,H1
+Malaysia,92,2019,H1
+Mexico,4727,2019,H1
+Monaco,82,2019,H1
+Morocco,5,2019,H1
+Netherlands,110,2019,H1
+New Zealand,5,2019,H1
+Norway,2,2019,H1
+Pakistan,5690,2019,H1
+Panama,80,2019,H1
+Papua New Guinea,1,2019,H1
+Poland,13,2019,H1
+Portugal,22,2019,H1
+Russia,58,2019,H1
+Saudi Arabia,1,2019,H1
+Singapore,2,2019,H1
+Slovakia,60,2019,H1
+Slovenia,1,2019,H1
+South Africa,1,2019,H1
+South Korea,35,2019,H1
+Spain,242,2019,H1
+Sri Lanka,14,2019,H1
+Switzerland,4,2019,H1
+Taiwan,2,2019,H1
+Thailand,503,2019,H1
+Turkey,599,2019,H1
+United Kingdom,76,2019,H1
+Vietnam,121,2019,H1
+Argentina,41,2019,H2
+Australia,14,2019,H2
+Austria,62,2019,H2
+Bangladesh,1,2019,H2
+Belgium,32,2019,H2
+Brazil,1238,2019,H2
+Bulgaria,6,2019,H2
+Canada,13,2019,H2
+Colombia,1,2019,H2
+Croatia,5,2019,H2
+Cyprus,6,2019,H2
+Czech Republic,5,2019,H2
+Denmark,5,2019,H2
+Egypt,3,2019,H2
+El Salvador,2,2019,H2
+Estonia,4,2019,H2
+Finland,4,2019,H2
+France,229,2019,H2
+French Polynesia,1,2019,H2
+Germany,1245,2019,H2
+Greece,6,2019,H2
+Hong Kong,394,2019,H2
+Hungary,12,2019,H2
+India,841,2019,H2
+Indonesia,170,2019,H2
+Iraq,2,2019,H2
+Ireland,16,2019,H2
+Israel,283,2019,H2
+Italy,597,2019,H2
+Japan,3,2019,H2
+Latvia,4,2019,H2
+Lithuania,4,2019,H2
+Luxembourg,4,2019,H2
+Malaysia,163,2019,H2
+Malta,6,2019,H2
+Mexico,2219,2019,H2
+Monaco,32,2019,H2
+Morocco,1,2019,H2
+Myanmar,11,2019,H2
+Netherlands,41,2019,H2
+New Zealand,4,2019,H2
+Norway,1,2019,H2
+Pakistan,2270,2019,H2
+Peru,1,2019,H2
+Poland,13,2019,H2
+Portugal,6,2019,H2
+Romania,5,2019,H2
+Russia,2900,2019,H2
+Samoa,5,2019,H2
+Singapore,16,2019,H2
+Slovakia,39,2019,H2
+Slovenia,6,2019,H2
+South Africa,1,2019,H2
+South Korea,65,2019,H2
+Spain,92,2019,H2
+Sri Lanka,848,2019,H2
+Suriname,6,2019,H2
+Sweden,4,2019,H2
+Switzerland,1,2019,H2
+Thailand,958,2019,H2
+Turkey,536,2019,H2
+Ukraine,4,2019,H2
+United Arab Emirates,11,2019,H2
+United Kingdom,231,2019,H2
+Vietnam,77,2019,H2
+Argentina,5,2020,H1
+Australia,51,2020,H1
+Austria,35,2020,H1
+Bangladesh,123,2020,H1
+Belgium,286,2020,H1
+Bosnia and Herzegovina,1,2020,H1
+Brazil,1520,2020,H1
+Canada,5,2020,H1
+Costa Rica,29,2020,H1
+Croatia,3,2020,H1
+Cyprus,1,2020,H1
+Czech Republic,1,2020,H1
+Denmark,2,2020,H1
+Egypt,1,2020,H1
+France,217,2020,H1
+French Polynesia,4,2020,H1
+Germany,1162,2020,H1
+Guatemala,1,2020,H1
+Hong Kong,199,2020,H1
+Hungary,10,2020,H1
+India,824,2020,H1
+Indonesia,630,2020,H1
+Ireland,148,2020,H1
+Israel,127,2020,H1
+Italy,352,2020,H1
+Kenya,1,2020,H1
+Latvia,8,2020,H1
+Lebanon,2,2020,H1
+Malaysia,376,2020,H1
+Mexico,6335,2020,H1
+Mongolia,97,2020,H1
+Morocco,1,2020,H1
+Netherlands,139,2020,H1
+New Zealand,15,2020,H1
+Nicaragua,5,2020,H1
+Nigeria,1,2020,H1
+Norway,5,2020,H1
+Pakistan,1083,2020,H1
+Peru,1,2020,H1
+Philippines,1,2020,H1
+Poland,12,2020,H1
+Romania,10,2020,H1
+Russia,771,2020,H1
+Saudi Arabia,4,2020,H1
+Singapore,259,2020,H1
+Slovakia,16,2020,H1
+Slovenia,1,2020,H1
+South Korea,1591,2020,H1
+Spain,117,2020,H1
+Sri Lanka,1,2020,H1
+Switzerland,4,2020,H1
+Taiwan,11,2020,H1
+Thailand,202,2020,H1
+Turkey,821,2020,H1
+Ukraine,1,2020,H1
+United Arab Emirates,1,2020,H1
+United Kingdom,3630,2020,H1
+United States,27,2020,H1
+Vietnam,834,2020,H1
+Afghanistan,12,2020,H2
+Aland Islands,12,2020,H2
+Albania,12,2020,H2
+Algeria,12,2020,H2
+American Samoa,12,2020,H2
+Andorra,12,2020,H2
+Angola,12,2020,H2
+Anguilla,12,2020,H2
+Antarctica,12,2020,H2
+Antigua,12,2020,H2
+Argentina,67,2020,H2
+Armenia,12,2020,H2
+Aruba,12,2020,H2
+Australia,80,2020,H2
+Austria,185,2020,H2
+Azerbaijan,12,2020,H2
+Bahrain,12,2020,H2
+Bangladesh,247,2020,H2
+Barbados,12,2020,H2
+Belarus,12,2020,H2
+Belgium,30,2020,H2
+Belize,12,2020,H2
+Benin,12,2020,H2
+Bermuda,12,2020,H2
+Bhutan,12,2020,H2
+Bolivia,12,2020,H2
+"Bonaire, Sint Eustatius and Saba",12,2020,H2
+Bosnia and Herzegovina,12,2020,H2
+Botswana,12,2020,H2
+Bouvet Island,12,2020,H2
+Brazil,11859,2020,H2
+British Indian Ocean Territory,12,2020,H2
+British Virgin Islands,12,2020,H2
+Brunei,12,2020,H2
+Bulgaria,12,2020,H2
+Burkina Faso,12,2020,H2
+Burundi,12,2020,H2
+Cambodia,12,2020,H2
+Cameroon,12,2020,H2
+Canada,234,2020,H2
+Cape Verde,12,2020,H2
+Cayman Islands,12,2020,H2
+Central African Republic,12,2020,H2
+Chad,12,2020,H2
+Chile,12,2020,H2
+China,12,2020,H2
+Christmas Island,12,2020,H2
+Cocos (Keeling) Islands,12,2020,H2
+Colombia,50,2020,H2
+Comoros,12,2020,H2
+Cook Islands,12,2020,H2
+Costa Rica,144,2020,H2
+Croatia,12,2020,H2
+Cuba,12,2020,H2
+Curacao,12,2020,H2
+Cyprus,14,2020,H2
+Czech Republic,12,2020,H2
+Democratic Republic of the Congo,12,2020,H2
+Denmark,14,2020,H2
+Djibouti,12,2020,H2
+Dominica,12,2020,H2
+Dominican Republic,12,2020,H2
+Ecuador,14,2020,H2
+Egypt,12,2020,H2
+El Salvador,12,2020,H2
+Equatorial Guinea,12,2020,H2
+Eritrea,12,2020,H2
+Estonia,12,2020,H2
+Ethiopia,12,2020,H2
+Falkland Islands,12,2020,H2
+Faroe Islands,12,2020,H2
+Federated States of Micronesia,12,2020,H2
+Fiji,12,2020,H2
+Finland,18,2020,H2
+France,81,2020,H2
+French Guiana,12,2020,H2
+French Polynesia,12,2020,H2
+French Southern Territories,12,2020,H2
+Gabon,12,2020,H2
+Georgia,12,2020,H2
+Germany,729,2020,H2
+Ghana,12,2020,H2
+Gibraltar,12,2020,H2
+Greece,13,2020,H2
+Greenland,13,2020,H2
+Grenada,12,2020,H2
+Guadeloupe,12,2020,H2
+Guam,12,2020,H2
+Guatemala,12,2020,H2
+Guernsey,12,2020,H2
+Guinea,12,2020,H2
+Guinea-Bissau,12,2020,H2
+Guyana,12,2020,H2
+Haiti,12,2020,H2
+Heard Island and McDonald Islands,12,2020,H2
+Honduras,12,2020,H2
+Hong Kong,13,2020,H2
+Hungary,25,2020,H2
+Iceland,16,2020,H2
+India,944,2020,H2
+Indonesia,142,2020,H2
+Iran,12,2020,H2
+Iraq,12,2020,H2
+Ireland,75,2020,H2
+Isle Of Man,12,2020,H2
+Israel,113,2020,H2
+Italy,263,2020,H2
+Ivory Coast,12,2020,H2
+Jamaica,12,2020,H2
+Japan,13,2020,H2
+Jersey,12,2020,H2
+Jordan,12,2020,H2
+Kazakhstan,12,2020,H2
+Kenya,12,2020,H2
+Kiribati,12,2020,H2
+Kosovo,12,2020,H2
+Kuwait,32,2020,H2
+Kyrgyzstan,12,2020,H2
+Laos,12,2020,H2
+Latvia,25,2020,H2
+Lebanon,20,2020,H2
+Lesotho,12,2020,H2
+Liberia,12,2020,H2
+Libya,12,2020,H2
+Liechtenstein,12,2020,H2
+Lithuania,32,2020,H2
+Luxembourg,12,2020,H2
+Macau,12,2020,H2
+Macedonia,12,2020,H2
+Madagascar,12,2020,H2
+Malawi,12,2020,H2
+Malaysia,22,2020,H2
+Maldives,12,2020,H2
+Mali,12,2020,H2
+Malta,12,2020,H2
+Marshall Islands,12,2020,H2
+Martinique,12,2020,H2
+Mauritania,12,2020,H2
+Mauritius,12,2020,H2
+Mayotte,12,2020,H2
+Mexico,7064,2020,H2
+Moldova,12,2020,H2
+Monaco,12,2020,H2
+Mongolia,49,2020,H2
+Montenegro,12,2020,H2
+Montserrat,12,2020,H2
+Morocco,12,2020,H2
+Mozambique,12,2020,H2
+Myanmar,12,2020,H2
+Namibia,12,2020,H2
+Nauru,12,2020,H2
+Nepal,12,2020,H2
+Netherlands,98,2020,H2
+Netherlands Antilles,12,2020,H2
+New Caledonia,12,2020,H2
+New Zealand,17,2020,H2
+Nicaragua,12,2020,H2
+Niger,12,2020,H2
+Nigeria,12,2020,H2
+Niue,12,2020,H2
+Norfolk Island,12,2020,H2
+North Korea,12,2020,H2
+Northern Mariana Islands,12,2020,H2
+Norway,12,2020,H2
+Oman,12,2020,H2
+Pakistan,1664,2020,H2
+Palau,12,2020,H2
+Palestine,12,2020,H2
+Panama,12,2020,H2
+Papua New Guinea,12,2020,H2
+Paraguay,12,2020,H2
+Peru,12,2020,H2
+Philippines,12,2020,H2
+Pitcairn,12,2020,H2
+Poland,23,2020,H2
+Portugal,12,2020,H2
+Puerto Rico,12,2020,H2
+Qatar,12,2020,H2
+Republic of the Congo,12,2020,H2
+Reunion,12,2020,H2
+Romania,12,2020,H2
+Russia,1880,2020,H2
+Rwanda,12,2020,H2
+Saint Barthelemy,12,2020,H2
+Saint Helena,12,2020,H2
+Saint Kitts and Nevis,12,2020,H2
+Saint Martin,12,2020,H2
+Saint Pierre and Miquelon,12,2020,H2
+Saint Vincent and the Grenadines,12,2020,H2
+Samoa,12,2020,H2
+San Marino,12,2020,H2
+Sao Tome and Principe,12,2020,H2
+Saudi Arabia,12,2020,H2
+Senegal,12,2020,H2
+Serbia,12,2020,H2
+Seychelles,12,2020,H2
+Sierra Leone,12,2020,H2
+Singapore,287,2020,H2
+Sint Maarten,12,2020,H2
+Slovakia,13,2020,H2
+Slovenia,12,2020,H2
+Solomon Islands,12,2020,H2
+Somalia,12,2020,H2
+South Africa,12,2020,H2
+South Georgia and the South Sandwich Islands,12,2020,H2
+South Korea,130,2020,H2
+South Sudan,12,2020,H2
+Spain,43,2020,H2
+Sri Lanka,1656,2020,H2
+St. Lucia,12,2020,H2
+Sudan,12,2020,H2
+Suriname,12,2020,H2
+Svalbard and Jan Mayen,12,2020,H2
+Swaziland,12,2020,H2
+Sweden,12,2020,H2
+Switzerland,21,2020,H2
+Syria,12,2020,H2
+Taiwan,21,2020,H2
+Tajikistan,12,2020,H2
+Tanzania,12,2020,H2
+Thailand,1758,2020,H2
+The Bahamas,12,2020,H2
+The Gambia,12,2020,H2
+Timor-Leste,12,2020,H2
+Togo,12,2020,H2
+Tokelau,12,2020,H2
+Tonga,12,2020,H2
+Trinidad and Tobago,12,2020,H2
+Tunisia,12,2020,H2
+Turkey,1631,2020,H2
+Turkmenistan,12,2020,H2
+Turks and Caicos Islands,12,2020,H2
+Tuvalu,12,2020,H2
+US Virgin Islands,12,2020,H2
+Uganda,12,2020,H2
+Ukraine,12,2020,H2
+United Arab Emirates,12,2020,H2
+United Kingdom,6080,2020,H2
+United States,12,2020,H2
+United States Minor Outlying Islands,12,2020,H2
+Uruguay,12,2020,H2
+Uzbekistan,15,2020,H2
+Vanuatu,12,2020,H2
+Vatican City,12,2020,H2
+Venezuela,12,2020,H2
+Vietnam,2217,2020,H2
+Wallis and Futuna,12,2020,H2
+Western Sahara,12,2020,H2
+Yemen,12,2020,H2
+Zambia,12,2020,H2
+Zimbabwe,12,2020,H2
