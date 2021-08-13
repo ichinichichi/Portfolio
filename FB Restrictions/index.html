@@ -11,6 +11,18 @@
     <!-- Your CSS files -->
     <link rel="stylesheet" href="style/app.css">
     <style>
+
+        /* smooth creates a rewind / speed up effect when jumping between sections of the page */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .main {
+      /* overflow-scrolling enables momentum-based scrolling on touch devices. This allows the user to use their fingers less on touch devices  */
+      -webkit-overflow-scrolling: touch;
+      /* 'transform' is included to ensure z-index works properly on all kinds of devices */
+      transform: translate3d(0, 0, 0); 
+    }
         #scrolly {
           position: relative;
           display: -webkit-box;
@@ -18,6 +30,7 @@
           display: flex;
           background-color: #181414;
           padding: 1rem;
+          width: auto;
         }
   
         #scrolly > * {
@@ -27,23 +40,40 @@
         }
   
         article {
-          position: relative;
-          padding: 0 1rem;
-          max-width: 20rem;
+          /* 'position:relative' allows the article section to be positioned in a custom way */
+      position: relative;
+      padding: 0 1rem;
+      /* 'max-width' sets how wide each step's the text comes up on the screen */
+      max-width: 20rem;
+      /* 'OPTIONAL: margin-top' sets how much space there is between the the figure and the first message.*/
+      margin-top: 0;
+      /* 'margin-left:auto' and 'margin-right:auto' centers the article on the page.*/
+      margin-left: auto;
+      margin-right: auto;
+      /* 'transform' is included to ensure z-index works properly on all kinds of devices */
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
         }
   
         .sticky-thing {
           position: -webkit-sticky;
           position: sticky;
           width: 100%;
+        
           margin: 0;
           background-color: #181414;
           z-index: 0;
-          top: 12.5vh;
+          top: 21.5vh;
+        
           height: 50vh;
           /* Center everything inside */
           display: flex;
           align-items: center;
+          -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+          
         }
   
         .sticky-thing p {
@@ -54,10 +84,12 @@
         }
   
         .step {
+           /* 'position relative' allows the steps to positioned in a custom way*/
+           position: relative;
           margin: 0 auto 2rem auto;
           background-color: #181414;
           color: #bbb4b2;
-          height: 52vh;  /*l think in vh with scrollytelling*/
+          min-height: 52vh;  /*l think in vh with scrollytelling*/
           width: 30vh;
           margin-bottom: 50vh;  /*defines pacing between steps: 50% of windows height */
         }
@@ -74,7 +106,7 @@
         .step p {
           text-align: left;
           padding: 1rem;
-          font-size: 1.2rem;  /*font fize of text in step*/
+          font-size: auto;  /*font fize of text in step*/
           font-family: Arial, Helvetica, sans-serif
         }
   
@@ -98,21 +130,21 @@
     <div class="container"><!-- start of the main container-->
         <div class="row justify-content-center"><!-- headline and intro -->
             <div class="col-lg-10 ">
-                <p class="kicker super-font">A closer look at Facebook content restrictions based on local law</p>
+                <p class="kicker super-font">A CLOSER LOOK AT FACEBOOK CONTENT RESTRICTIONS BASED ON LOCAL LAWS</p>
                 <h1 class="headline super-font">Does Facebook censor more in countries with authoritarian regimes?</h1>
                 <p class="credit super-font">BY Chi Thanh Nguyen</p>
                 <p class="date sub-font">Published August 11, 2021</p>
                 <p class="body-text sub-font">
                     <b>"At Facebook, we’re committed to giving people a voice and keeping them safe."</b>
                     <br></br>
-                    This is the huge and bolded text that greets me at the frontpage from Facebook's Transparency Center. 
-                    Its mission seems ethnically plausible and like a good PR strategy since Facebook is not exactly known for respecting data privacy and stopping the spread of misinformation.
-                    But what does the transparency center do and what do they mean with <i>safe</i>? <br>
-                    Answer:  Removing, Reducing and Informing about harmful content that goes against their community standards.
-                    <br>Their <a href="https://transparency.fb.com/policies/">policies</a> cover a range of overall important topics that need to be moderated in a social network.
-                    It ranges from violence, exploitation, hate speech, but also false news, intellectual property and individual user requests.
-                    <br> And the transparent part of it? They publish reports on their website. One of them is called <i>Content Restrictions Based on Local Law</i> with available CSV files, listing
-                    countries for each year and the amount of content that Facebook restricted.
+                    This is the huge, bolded text that greets me on the front page of Facebook's Transparency Center. Its mission seems ethnically plausible and like a good PR strategy since Facebook is not exactly known for respecting data privacy and stopping the spread of misinformation. But what does the Transparency Center do and what do they mean by ‘safe’?  <br>Their answer: Removing, reducing, and informing about harmful content that goes against their Community Standards.
+                    
+                    <br>
+                    Their <a href="https://transparency.fb.com/policies/">policies</a> cover a range of important topics that need to be moderated in a social network. 
+                    They range from violence, exploitation, and hate speech, but also false news, intellectual property, 
+                    and individual user requests. <br> And the ‘transparent’ part of it? They publish reports on their website. 
+                    <br>One of them is called <i>Content Restrictions Based on Local Law</i>, with available CSV files listing countries for each year and the amount of content that Facebook restricted. 
+                    
 
                 </p>
             </div>
@@ -129,11 +161,14 @@
             </div>
             <div class="col-lg-10 ">
                 <p class="body-text sub-font">
-                    Facebook can also remove comments, pages, groups, posts and user profiles that do not violate the above mentioned Facebook's community policies. 
-                    <br>  What Facebook does is restricting the content's availability only in the country where it is alleged to be illegal.
-                    For that they reportedly receive reports about violations of local law on Facebook or Instagram from governments and courts, as well as from non-government entities such as members of the Facebook community and NGOs.
-                    <br>That covers quite a large range of entities that can file reports and what about countries with questionable local laws that infringe upon democratic values like freedom of speech?
-                    Let us take a deeper look if Facebook actually censors more content in non-democratic countries and what exactly those restrictions were that did not already fall under Facebook's community standards. 
+                  Facebook can also remove comments, pages, groups, posts, and user profiles that do not violate the 
+                  above-mentioned Facebook's community policies. <br>Facebook restricts the content's availability only 
+                  in the country where it is alleged to be illegal. <br>To accomplish this, they reportedly receive reports 
+                  about violations of local law on Facebook or Instagram from governments and courts, as well as from 
+                  non-government entities, such as members of the Facebook community and NGOs. <br>That covers quite a 
+                  large range of entities that can file reports. <br>What about countries with questionable local laws that infringe upon democratic values like freedom of speech? 
+                  <br></br>Let us take a deeper look into whether Facebook censors more content in non-democratic countries and what exactly those restrictions were that did not already fall under Facebook's Community Standards.
+                  
 
                     <br> 
                 </p>
@@ -226,18 +261,11 @@
            
                
                 <p class="body-text sub-font">
-                    In comparison to 2014, 2015's restrictions tripled and added 57.914 censors more than the previous year.
-                    The second highest spike happened in 2020, which counts 64.726 Facebook restrictions in total.
-                    In general, there is an upwards trend over the last few years. However, as the number of active Facebook users worldwide
-                    is growing and more content is getting pushed and published on the platform, it could naturally lead to an increase in restrictions.
-                    At the end of 2013, Facebook boasted 1.23 billion monthly active users while 2020 has over 460 million users more than 2013.
+                  In comparison to 2014, 2015 saw restrictions triple and added 57,914 censors over the previous year. The second-highest spike happened in 2020, which counts 64,726 Facebook restrictions in total. In general, there is an upwards trend over the last few years. However, as the number of active Facebook users worldwide is growing and more content is getting published on the platform, it could naturally lead to an increase in restrictions. At the end of 2013, Facebook boasted 1.23 billion monthly active users, while 2020 has over 460 million users more than in 2013.
                     <br></br>
-                    Side Note: I ran an analysis with the data and indeed there was a slight correlation with the amount of Facebook users and the amount of restrictions a country has. Interestingly, a Facebook usage to population size
-                    ratio was also created and this did not show any correlation to the restrictions. However, there are huge differences in the variability of countries and restrictions, which is why I left this part out.
+                    Side Note: I ran an analysis with the data, and indeed there was a slight correlation between the amount of Facebook users and the number of restrictions a country has. Interestingly, a Facebook usage to population size ratio was also created and this did not show any correlation to the restrictions. However, there are huge differences in the variability of countries and restrictions, which is why I left this part out.
                     <br></br>
-                    In 2020, the spike was mainly caused because of local laws coming from Mexico, Brazil, the UK and Vietnam. The restrictions were quite evenly distributed in comparison to 2015.
-                    Only two countries in 2015 were majorly responsible for the dramatic peak - India and France. Not surprisingly, these two censorship events
-                    are also the biggest censors so far that happened to a country in a year just based on violations of local law.
+                    In 2020, the spike was mainly caused by local laws coming from Mexico, Brazil, the UK, and Vietnam. The restrictions were quite evenly distributed in comparison to 2015. Only two countries in 2015 were majorly responsible for the dramatic peak - India and France. Not surprisingly, these two censorship events are also the biggest censors to happen to a country in a year, just based on violations of local law.
                 
                     </p>
             </div>
@@ -2384,13 +2412,10 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
     <div class="col-lg-10 ">
         <p class="subhead super-font">What are the biggest censorship events on Facebook based on local law?</p>
         <p class="body-text sub-font">
-        In many Western European countries such as Austria, Germany and Italy, items related to Holocaust denial was removed since 16 European countries and Israel have laws against it.
-        However, not until October 2020 did Facebook update their hate speech policy and included Holocaust denial as part of their community standards.
-        Still critcism in the way Facebook handled it came up as the news organization <a href="https://themarkup.org/news/2020/11/24/facebook-ban-holocaust-deniers-antisemitism">"The Markup"</a> found that numerous Facebook pages well-known for Holocaust denial groups remained active in November 2020, highlighting the struggle Facebook has
-        with misinformation and conspiracy groups. This is equally as alarming as a US-wide survey conducted by the Conference on Jewish Material Claims Against Germany, revealed in 2020 that nearly a quarter of young Americans, aged 18 - 39, believed the Holocaust was just a myth.
+         In many Western European countries such as Austria, Germany, and Italy, items related to Holocaust denial were removed since 16 European countries and Israel have laws against it. However, not until October 2020 did Facebook update their hate speech policy and include Holocaust denial as part of their Community Standards. Still, criticism about the way Facebook handled it came up as the news organization, <a href="https://themarkup.org/news/2020/11/24/facebook-ban-holocaust-deniers-antisemitism">"The Markup"</a>, found that numerous Facebook pages well-known for Holocaust denial groups remained active in November 2020, highlighting the struggle Facebook has with misinformation and conspiracy groups. This is equally as alarming as a US-wide survey conducted by the Conference on Jewish Material Claims Against Germany in 2020, which revealed that nearly a quarter of young Americans, aged 18 - 39, believed the Holocaust was just a myth.
+       
             <br></br>
-        Many items Facebook restricted in different countries also concerned the illegal sales of regulated goods. This may include
-        firearms, non-medical drugs, marijuana, endangerd species, weight loss products, human blood and historical artifacts.
+            Many items Facebook restricted in different countries also concerned the illegal sales of regulated goods. This may include firearms, non-medical drugs, marijuana, endangered species, weight loss products, human blood, and historical artifacts.
         <br></br>
         But what else did Facebook censor?
         
@@ -2404,6 +2429,7 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
 </div>
 
 
+<br></br>
 
 
 <!-- start of scrolly -->
@@ -2732,7 +2758,7 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
 
 
     </div>
-    <article>
+    <article class="img-fluid">
       <div class="step" id="empty">
 
       </div>
@@ -2741,23 +2767,23 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
       <div class="step" data-step="1">
         <p><b>France 2015</b>:
             <br></br>
-            Apart from Holocaust denial, Facebook restricted over 32.100 single images inside the Bataclan concert venue related to the November 2015 terrorist attack in Paris. The request came from the OCLCTIC, a French law enforcement division, citing the violation of French laws regarding the protection of human dignity. According to Facebook, they did not restrict it in other countries as the pictures were classified to denounce the attacks and show compassion for victims and thus did not violate their Community Standards. 
+            Apart from Holocaust denial, Facebook has restricted over 32,100 single images inside the Bataclan concert venue related to the November 2015 terrorist attack in Paris. The request came from the OCLCTIC, a French law enforcement division, citing the violation of French laws regarding the protection of human dignity. According to Facebook, they did not restrict the photos in other countries as they were classified to denounce the attacks and show compassion for victims, and thus, did not violate their Community Standards.
                 
         </p>
       </div>
       <div class="step" data-step="2">
         <p><b>India 2015</b>:
             <br></br>
-            The majority of the content removed was restricted under local laws against anti-religious and hate speech that could cause <i>unrest and disharmony</i>. One of the laws concerns the respect towards the national flag and Facebook removed an image depicting a boy urinating on the Indian National Flag. Most requests came from the Ministry of Communications and Information Technology. 
+            The majority of the content removed was restricted under local laws against anti-religious and hate speech that could cause unrest and disharmony. One of the laws concerned respect towards the national flag and Facebook removed an image depicting a boy urinating on the Indian National Flag. Most requests came from the Ministry of Communications and Information Technology.
         <br></br>
-            In 2016 the Supreme Court of India amended the interpretation of the Information Technology Act of 2000. Facebook ceased acting upon legal requests unless received by way of a binding court order or a notification by an authorized agency.
+        In 2016, the Supreme Court of India amended the interpretation of the Information Technology Act of 2000. Facebook has since ceased acting upon legal requests unless they are received by way of a binding court order or a notification by an authorized agency.
         
         </p>
       </div>
       <div class="step" data-step="3">
         <p><b>Mexico 2017</b>:
             <br></br>
-        In 2017, Facebook restricted access to over 22.639 instances of a video of a school shooting in January 18 Monterrey, Mexico upon request from Mexican law enforcement and continue to restrict access to newly uploaded copies until 2020. It did not violate their community standards and only qualified for a disturbing content warning from Facebook. They also received requests for a page and profile from the Mexican Federal Commission for the Protection Against Sanitary Risk to the alleged illegal sale of regulated goods.
+            In 2017, Facebook restricted access to over 22,639 instances of a video of a school shooting in Monterrey, Mexico upon request from Mexican law enforcement and continued to restrict access to newly uploaded copies until 2020. It did not violate their Community Standards and only qualified for a disturbing content warning from Facebook. They also received requests for a page and profile from the Mexican Federal Commission for the Protection Against Sanitary Risk to be removed for the alleged illegal sale of regulated goods.
         
         
         
@@ -2766,21 +2792,21 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
       <div class="step" data-step="4">
         <p><b>India 2018</b>:
             <br></br>
-        The majority of restrictions in India during this period stem from a civil action brought against Facebook and other online platforms by PepsiCo. The Delhi High Court found that content claiming Kurkure products contain plastic was defamatory and restricted access to 16,600 items containing such claims and notified impacted users.
-        Kurkue is an evening snack made from rice and the plastic like substance that fueled the rumors is apparently nothing but starch.
+            The majority of restrictions in India during this period stem from a civil action lawsuit brought against Facebook and other online platforms by PepsiCo. The Delhi High Court found that content claiming Kurkure products contain plastic was defamatory and Facebook restricted access to 16,600 pieces of content containing such claims and notified impacted users. Kurkure is an evening snack made from rice and the plastic-like substance that fueled the rumors is apparently nothing but starch.
+        
         </p>
       </div>
       <div class="step" data-step="5">
         <p><b>Brazil 2020</b>:
             <br></br>
-        Facebook restricted 11.824 items in compliance with orders from local courts related to civil, criminal and electoral proceedings. For example, they received an order from the state of Pernambuco requesting the removal of 63 items for allegedly violating local laws related to electoral legislation. The court later updated its prior decision to limit the scope of the restriction and Facebook reinstated access to 11 items. They also restricted access to 23 items in response to Consumer Policy reports submitted by the Brazilian Federal Ministry of Agriculture.
+            Facebook restricted 11,824 items in compliance with orders from local courts related to civil, criminal, and electoral proceedings. For example, they received an order from the State of Pernambuco requesting the removal of 63 items for allegedly violating local laws related to electoral legislation. The court later updated its prior decision to limit the scope of the restriction and Facebook reinstated access to 11 items. They also restricted access to 23 items in response to Consumer Policy reports submitted by the Brazilian Federal Ministry of Agriculture.
 
         </p>
       </div>
       <div class="step" data-step="6">
         <p><b>Mexico 2020</b>:
             <br></br>
-        Facebook restricted access to 6.959 items in response to Consumer Policy reports by the Mexican Federal Commission for the Protection Against Sanitary Risk as violating local laws related to the sale of regulated goods. They also received a request from the Mexican Federal Electoral Court to remove 239 items in connection with two complaints filed by the Partido de la Revolución Democrática (“PRD”) against Governmental Entities in Mexico. The PRD alleged that the content violated Mexico’s election laws.
+            Facebook restricted access to 6,959 pieces of content for violating local laws related to the sale of regulated goods, in response to Consumer Policy reports by the Mexican Federal Commission for the Protection Against Sanitary Risk. They also received a request from the Mexican Federal Electoral Court to remove 239 items in connection with two complaints filed by the Partido de la Revolución Democrática (PRD) against Governmental Entities in Mexico. The PRD alleged that the content violated Mexico’s election laws.
         
 
 
@@ -2789,8 +2815,7 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
       <div class="step" data-step="7">
         <p><b>United Kingdom 2020</b>:
             <br></br>
-        Facebook restricted 1.499 items related to the promotion and sale of regulated goods and services, 30 items for the misuse of private information, 7 items organizing events that violated local social distancing laws, 42 items for private reports of defamation, 2 items in compliance with court orders, to 1 item relating to the Offender Management Act
-        and 5.972 items based on reports from the Advertising Standards Authority reporting for violations of the Committees of Advertising Practice’s advertising codes related to misleading ads, promotional marketing, medicines and health related products, weight control, alcohol, gambling etc.
+            Facebook restricted 1,499 items related to the promotion and sale of regulated goods and services, 30 items for the misuse of private information, 7 items organizing events that violated local social distancing laws, 42 items for private reports of defamation, two items in compliance with court orders, one item relating to the Offender Management Act, and 5,972 items based on reports from the Advertising Standards Authority for violations of the Committees of Advertising Practice’s advertising codes related to misleading ads, promotional marketing, medicines and health-related products, weight control, alcohol, gambling, etc.
         
 
             </p>
@@ -2798,29 +2823,25 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
       <div class="step" data-step="8">
         <p><b>Pakistan 2019</b>:
             <br></br>
-        Facebook received most requests from the Pakistan Telecommunication Authority. Two Facebook posts linked to an article discussing wife swapping and swingers events was considered illegal obscenity under Section 37 of the Prevention of Electronic Crime Act (PECA). The majority of items removed violated local laws prohibiting advocacy against the polio vaccine, blasphemy, anti-judiciary content, proscribed organizations supporting separatism, defamation, and condemnation of the country's independence.
-        
-        Here Facebook admitted an error as 11 items should have been deleted for violating the Community Standards and six items should not have been removed. 
-        
+            Facebook received most of these requests from the Pakistan Telecommunication Authority. Two Facebook posts linked to an article discussing wife swapping and swingers events were considered illegal obscenity under Section 37 of the Prevention of Electronic Crime Act (PECA). The majority of items removed violated local laws prohibiting advocacy against the polio vaccine, blasphemy, anti-judiciary content, proscribed organizations supporting separatism, defamation, and condemnation of the country's independence. Here, Facebook admitted an error as 11 items should have been deleted for violating their Community Standards and six items should not have been removed.
             </p>
       </div>
       <div class="step" data-step="9">
         <p> <b>Turkey 2015</b>:
             <br></br>
-        According to Facebook, the majority of the content was restricted under local law 5651 (Turkey’s Internet Act), which covers a range of offenses including personal rights violations, personal privacy, and defamation of Ataturk. The requests came from the Telecommunications Authority, Turkish courts, and the Access Providers Union. 
+            According to Facebook, the majority of the content restricted in Turkey during this time was under local law 5651 (Turkey’s Internet Act), which covers a range of offenses, including personal rights violations, personal privacy, and defamation of Ataturk. The requests came from the Telecommunications Authority, Turkish courts, and the Access Providers Union.
             </p>
       </div>
       <div class="step" data-step="10">
         <p><b>Vietnam 2020</b>:
             <br></br>
-        Facebook restricted over 2.205 items that violate Decree No. 72/2013/ND-CP, including content opposing the Communist Party and the Government of Vietnam. Other topics requested by the Ministry of Information and Communications Authority of Broadcasting and Electronic Information and the Ministry of Public Security included COVID-19 misinformation, promotion of illegal online gambling, illicit trading and advertising and fraud or impersonation.
+            Facebook restricted over 2,205 items that violate Decree No. 72/2013/ND-CP, including content opposing the Communist Party and the Government of Vietnam. Other topics requested for removal by the Ministry of Information and Communications Authority of Broadcasting and Electronic Information and the Ministry of Public Security included COVID-19 misinformation, promotion of illegal online gambling, illicit trading and advertising, and fraud or impersonation.
         </p>
       </div>
       <div class="step" data-step="11">
         <p><b>Russia 2020</b>:
             <br></br>
-        Facebook restricted over 1,868 items reported by the Federal Service for Supervision of Communications, Information Technology and Mass Media (Roskomnadzor) – the agency that also once restricted Github in Russia. The majority of items removed (1.501) related to alleged extremism. Other items included
-        the sale and use of regulated goods, items expressing disrespect to official state symbols according to the Federal Law No. 149-FZ,  COVID-19-related misinformation, gambling and 335 items for violating local Russian laws under the jurisdiction of the Federal Agency for Youth Affairs.
+            Facebook restricted over 1,868 items reported by the Federal Service for Supervision of Communications, Information Technology, and Mass Media (Roskomnadzor), the agency that also once restricted Github in Russia. The majority of items removed (1,501) related to alleged extremism. Other items included the sale and use of regulated goods, items expressing disrespect to official state symbols according to Federal Law No. 149-FZ, COVID-19-related misinformation, gambling, and 335 items for violating local Russian laws under the jurisdiction of the Federal Agency for Youth Affairs.
         
 
 
@@ -2851,22 +2872,32 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
     <div class="col-lg-10 ">
         <p class="subhead super-font">So does Facebook undermine democracy?</p>
         <p class="body-text sub-font">
-            As seen in the few examples, Facebook restricts in every single country, but restrictions are not necessarily bad. Most of them are needed, especially in modern times to combat misinformation
-            and in that regard there is criticism actually that Facebook should do more. <br>Just in 2020, Facebook had to regulate their content in some countries to combat Covid-19 misinformation, but here lies also an ethical question: Why not globally?
-            Would it infringe on our personal freedom of speech and would it challenge a country's autonomy? <br>
-            What is also clear is that in the case of Vietnam for example, they indirectly support authoritarian countries by restricting criticism against the regime.
-            <br> It is a challenging task to balance Facebook's community standards, which are more based on democratic values with the demands and
-            requests that come from interacting in countries based on local laws if they do not want to risk consequences. <br>The Russian agency, Roskomnadzor, censoring the nation's mass media just recently fined Facebook in January 2021 for not removing pro-Navalny videos.
-            <br> On the other hand, under the law 5651 in Turkey, Facebook followed the requests and removeded some content. Nonetheless, the law is still being criticized by organizations like <a href="https://www.hrw.org/news/2014/09/02/turkey-internet-freedom-rights-sharp-decline">Human Rights Watch</a> 
-            that in recent years it has been used to block LGBT community forums or pro-Kurdish websites. Thereby, Facebook is not innocent in indirectly helping with discrimination and violating freedom of speech on a country level.
-            <br></br>
-            Indeed, Facebook is walking on a fine line between respecting a country's law and protecting democratic values. In Thailand for example, they restrict items each year relating to violations of lèse-majesté law and Section 14(3) of the Computer Crimes Act a.k.a. criticism to the Thai king.<br> But with the recent surge in Thailand's protest expressing 
-            their dissatisfaction with the king and the current regime, are Facebook obeys seen as a sign of respect or support for corrupt governments?
+         As shown in the examples above, Facebook restricts content in every single country, but the 
+         restrictions are not necessarily harmful. Most of them are needed, especially in modern times, 
+         to combat misinformation, and in that regard, there is criticism that Facebook should actually do more.<br>
+         Just in 2020, Facebook had to regulate their content in some countries to combat COVID-19 misinformation, 
+         but here also lies an ethical question: Why not globally? Would it infringe on our personal freedom of 
+         speech, and would it challenge a country's autonomy?<br>
+         It is also clear that in the case of Vietnam, for example, they indirectly support authoritarian 
+         countries by restricting criticism against the regime. <br>It is a challenging task to balance 
+         Facebook's Community Standards, which are based on democratic values, with the demands and 
+         requests that come from doing business in countries based on local laws without risking 
+         consequences.<br> The Russian agency, Roskomnadzor, which censors the nation's mass media just 
+         recently fined Facebook in January 2021 for not removing pro-Navalny videos. 
+         <br>On the other hand, under Law 5651 in Turkey, Facebook followed requests and removed some content. 
+         Nonetheless, the law is still being criticized by organizations like <a href="https://www.hrw.org/news/2014/09/02/turkey-internet-freedom-rights-sharp-decline">Human Rights Watch</a> that in 
+         recent years it has been used to block LGBT community forums or pro-Kurdish websites. 
+         <br>Thereby, Facebook is not innocent in indirectly helping with discrimination and violating 
+         freedom of speech on a country level.
+         <br></br>
+         Indeed, Facebook is walking a fine line between respecting a country's law and protecting democratic values. In Thailand, for example, they restrict items each year relating to violations of lèse-majesté law and Section 14(3) of the Computer Crimes Act a.k.a. criticism to the Thai king. But with the recent surge of protests and the Thailand people expressing their dissatisfaction with the king and the current regime, is Facebook’s compliance seen as a sign of respect or support for corrupt governments?
+         
+          
             <br></br>
             <img class=img-fluid src="style/images/thai.jpg">
             <p class="caption sub-font">NOTE: Thailand protested against the dictatorship government on a sky walk in the middle of Bangkok. <br>SOURCE: unsplash.com</p>
             <p class="body-text sub-font">
-            To further analyze it, I enriched the data with the democracy index for each corresponding year. It is an index compiled yearly by the Economist Intelligence Unit - the research divison of the UK-based Economist Group. <br> It also catgorizes each country according to their regime type.
+               To further analyze this question, I enriched the data with the democracy index for each corresponding year. It is an index compiled yearly by the Economist Intelligence Unit, which is the research division of the UK-based Economist Group. It also categorizes each country according to its regime type.
         </p>
 
         </p>
@@ -2913,7 +2944,9 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
 <div class="row justify-content-center"><!-- headline and intro -->
     <div class="col-lg-10 ">
         <p class="body-text sub-font">
-            When exploring the map, a lot of countries have exactly 12 restrictions - even North Korea. This is because Facebook restricted 12 profiles and pages of supporters of Brazilian President Bolsonaro globally in every country. <br> This came as a response to an an order from Justice Alexandre de Moraes of Brazil's Supreme Court. <br>Facebook’s transparency center, however, states that they only restrict content based on local law and only in the country or region where it is alleged to be illegal. As of right now this is not true and Facebook’s official statement is that they strongly oppose extraterritorial legal demands such as the one resulting in these restrictions and have actively pursued all options to appeal the order. <br>As of May 19, 2021, their appeal to the Brazilian Supreme Court's full bench is still pending. In Facebook’s defense, the company first refused to block worldwide access to the account, but Brazil’s Supreme Court fined Facebook 1.92m Brazilian Real equals (314 thousand Euros) in August 2020 for the refusal.
+         When exploring the map, a lot of countries have exactly 12 restrictions - even North Korea. This is because Facebook restricted 12 profiles and pages of supporters of Brazilian President Bolsonaro globally in every country. This came as a response to an order from Justice Alexandre de Moraes of Brazil's Supreme Court.
+         Facebook’s Transparency Center, however, states that they only restrict content based on local law and only in the country or region where it is alleged to be illegal. As of right now, this is not true and Facebook’s official statement is that they strongly oppose extraterritorial legal demands, such as the one resulting in these restrictions, and have actively pursued all options to appeal the order. As of May 19, 2021, their appeal to the Brazilian Supreme Court's full bench is still pending. In Facebook’s defense, the company first refused to block worldwide access to the account but Brazil’s Supreme Court fined Facebook 1.92m Brazilian Real (equal to 314 thousand euros) in August 2020 for the refusal.
+         
    
         
         </p>
@@ -3789,12 +3822,9 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
     <div class="col-lg-10 ">
         <p class="body-text sub-font">
            
-            In conlusion, Facebook does not restrict more content in authoritarian regimes or in countries with a lower democratic index.
-            As a capitalist agency with their own interests, they restrict everywhere if they do not want to be fined or banned.<br> As visible in the graphic above, most restrictions came from flawed democracies.
-            The Economist Group defined flawed democracies as nations, where elections are fair and free and basic civil liberties are honoured but highlight possible issues with media freedom infringement and minor suppression of political opposition and critics.
-            As restrictions of contents are higly variable between regimes and even years within a country, it is difficult to make certain conclusions and they would need to be evaluated sperately on a country level. Even then, since Facebook only have data for less than 10 years it is difficult to define clear trends as
-            they can be hugely influenced by events like the terrorist attack in France. 
-        
+         In conclusion, Facebook does not restrict more content in authoritarian regimes or in countries with a lower democratic index. As a capitalist agency with their own interests, they restrict broadly if they do not want to be fined or banned.
+        <br></br>
+        As visible in the graphic above, most restrictions came from flawed democracies. The Economist Group defined flawed democracies as nations where elections are fair and free and basic civil liberties are honored but highlight possible issues with media freedom infringement and minor suppression of political opposition and critics. As restrictions of contents are highly variable between regimes and even years within a country, it is difficult to make confident conclusions, and each would need to be evaluated separately on a country level. Even then, Facebook only has data for less than 10 years, making it is difficult to define clear trends as they can be hugely influenced by events like the terrorist attack in France.
         
         
         </p>
@@ -3810,13 +3840,13 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
     <div class="col-lg-10 ">
         <p class="subhead super-font">Open Questions that could be researched further</p>
         <p class="body-text sub-font">
-            Why did Facebook nor include Holocaust denial in their community guidelinea earlier?
+            Why did Facebook not include Holocaust denial in their community guidelines earlier?
             <br></br>
             How come the pictures of the terrorist attack victims France were classified as showing compassion and the Mexico shooting was only classified as disturbing? Their community standards seem dubious.
             <br></br>
             What exactly were each single restrictions, especially from authoritarian regimes? There is not much information on their website.
             <br></br>
-            How come the United States had only 39 restrictions recorded in the Transparency Center? Highly doubtful not more content had to be restricted or just a really free country?
+            How come the United States had only 39 restrictions recorded in the Transparency Center? 
             <br></br>
             Are there data not being recorded or were there really zero restrictions in that year?
 
@@ -3868,6 +3898,10 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
     <script src="https://unpkg.com/scrollama"></script>
     <script src="https://unpkg.com/d3@7.0.0/dist/d3.min.js"></script>
     <script>
+
+       // initialize the scrollama
+      const scroller = scrollama();
+
       // using d3 for convenience
       var main = document.querySelector("main");
       var scrolly = main.querySelector("#scrolly");
@@ -3875,9 +3909,43 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
       var article = scrolly.querySelector("article");
       var steps = article.querySelectorAll(".step");
 
-      // initialize the scrollama
-      const scroller = scrollama();
+      
 
+       // ---------Section 1: Set Heights---------------
+    //#region
+    // Set the size of the figure and the height of the steps
+    // These are set to constants to improve performance on mobile devices, while keeping the code relatively simple.
+    // ----------------------------------------------
+    const figureHeight = window.innerHeight * 0.8
+    const figureMarginTop = (window.innerHeight - figureHeight) / 2
+    const stepH = Math.floor(window.innerHeight * 1.8);
+    //#endregion
+
+    // ---------Section 3: handleResize()---------------
+    // Create a function which sets the styling of the various elements exactly as you want it to appear
+    // This function could increase in complexity as you build responsive scrollytelling webpages. Here, this function
+    // is relatively simple.
+    // -------------------------------------------------
+    function handleResize() {
+      
+      console.log("handling resize")
+
+      // 1. update height of step elements
+      steps
+         .style("height", stepH + 'px')
+
+      // 2. update height, margin, and layering of the figure
+      sticky
+        .style('height', figureHeight + 'px')
+        .style('top', figureMarginTop + 'px')
+
+      // 3. tell scrollama to update new element dimensions. Not always necessary, but included just to be safe.
+      scroller.resize();
+
+    }
+
+
+      // create the functions
       function colour(selector) {
         d3.selectAll(selector).style("fill", "#9a1c53");
 
@@ -3964,6 +4032,8 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
       } //handlestepenter
 
       function init() {
+         // 1. force a resize on load to ensure proper dimensions are sent to scrollama
+      //handleResize();
         scroller
           .setup({
             step: "#scrolly article .step",
@@ -3973,7 +4043,7 @@ width="792px" height="432px" viewBox="0 0 792 432" enable-background="new 0 0 79
           .onStepEnter(handleStepEnter);
 
         // setup resize event
-        window.addEventListener("resize", scroller.resize);
+        window.addEventListener("resize", handleResize);
       }
 
       // kick things off
